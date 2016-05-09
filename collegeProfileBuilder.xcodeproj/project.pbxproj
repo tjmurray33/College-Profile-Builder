@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F996E331C88D60700810980 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F996E321C88D60700810980 /* AppDelegate.swift */; };
-		3F996E351C88D60700810980 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F996E341C88D60700810980 /* ViewController.swift */; };
-		3F996E381C88D60700810980 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F996E361C88D60700810980 /* Main.storyboard */; };
-		3F996E3A1C88D60700810980 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F996E391C88D60700810980 /* Assets.xcassets */; };
-		3F996E3D1C88D60700810980 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F996E3B1C88D60700810980 /* LaunchScreen.storyboard */; };
 		3F996E481C88D60700810980 /* collegeProfileBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F996E471C88D60700810980 /* collegeProfileBuilderTests.swift */; };
 		3F996E531C88D60700810980 /* collegeProfileBuilderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F996E521C88D60700810980 /* collegeProfileBuilderUITests.swift */; };
+		3F996E6C1C88D63700810980 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F996E611C88D63700810980 /* AppDelegate.swift */; settings = {ASSET_TAGS = (); }; };
+		3F996E6D1C88D63700810980 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F996E621C88D63700810980 /* ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		3F996E6E1C88D63700810980 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F996E631C88D63700810980 /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
+		3F996E6F1C88D63700810980 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F996E651C88D63700810980 /* MapViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		3F996E701C88D63700810980 /* College.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F996E661C88D63700810980 /* College.swift */; settings = {ASSET_TAGS = (); }; };
+		3F996E711C88D63700810980 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F996E671C88D63700810980 /* DetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		3F996E721C88D63700810980 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F996E681C88D63700810980 /* Assets.xcassets */; settings = {ASSET_TAGS = (); }; };
+		3F996E731C88D63700810980 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F996E691C88D63700810980 /* LaunchScreen.storyboard */; settings = {ASSET_TAGS = (); }; };
+		3F996E741C88D63700810980 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F996E6B1C88D63700810980 /* Info.plist */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,18 +39,22 @@
 
 /* Begin PBXFileReference section */
 		3F996E2F1C88D60700810980 /* collegeProfileBuilder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = collegeProfileBuilder.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F996E321C88D60700810980 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3F996E341C88D60700810980 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3F996E371C88D60700810980 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3F996E391C88D60700810980 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3F996E3C1C88D60700810980 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3F996E3E1C88D60700810980 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F996E431C88D60700810980 /* collegeProfileBuilderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = collegeProfileBuilderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F996E471C88D60700810980 /* collegeProfileBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collegeProfileBuilderTests.swift; sourceTree = "<group>"; };
 		3F996E491C88D60700810980 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F996E4E1C88D60700810980 /* collegeProfileBuilderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = collegeProfileBuilderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F996E521C88D60700810980 /* collegeProfileBuilderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collegeProfileBuilderUITests.swift; sourceTree = "<group>"; };
 		3F996E541C88D60700810980 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F996E601C88D63600810980 /* collegeProfileBuilder-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "collegeProfileBuilder-Bridging-Header.h"; sourceTree = "<group>"; };
+		3F996E611C88D63700810980 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "../../../../Downloads/CollegeProfileBuilder#1/CollegeProfileBuilder#1/AppDelegate.swift"; sourceTree = "<group>"; };
+		3F996E621C88D63700810980 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "../../../../Downloads/CollegeProfileBuilder#1/CollegeProfileBuilder#1/ViewController.swift"; sourceTree = "<group>"; };
+		3F996E641C88D63700810980 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../../Downloads/CollegeProfileBuilder#1/CollegeProfileBuilder#1/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		3F996E651C88D63700810980 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = "../../../../Downloads/CollegeProfileBuilder#1/CollegeProfileBuilder#1/MapViewController.swift"; sourceTree = "<group>"; };
+		3F996E661C88D63700810980 /* College.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = College.swift; path = "../../../../Downloads/CollegeProfileBuilder#1/College.swift"; sourceTree = "<group>"; };
+		3F996E671C88D63700810980 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = "../../../../Downloads/CollegeProfileBuilder#1/CollegeProfileBuilder#1/DetailViewController.swift"; sourceTree = "<group>"; };
+		3F996E681C88D63700810980 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../Downloads/CollegeProfileBuilder#1/CollegeProfileBuilder#1/Assets.xcassets"; sourceTree = "<group>"; };
+		3F996E6A1C88D63700810980 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../../Downloads/CollegeProfileBuilder#1/CollegeProfileBuilder#1/Base.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		3F996E6B1C88D63700810980 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../../../../Downloads/CollegeProfileBuilder#1/CollegeProfileBuilder#1/Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +105,16 @@
 		3F996E311C88D60700810980 /* collegeProfileBuilder */ = {
 			isa = PBXGroup;
 			children = (
-				3F996E321C88D60700810980 /* AppDelegate.swift */,
-				3F996E341C88D60700810980 /* ViewController.swift */,
-				3F996E361C88D60700810980 /* Main.storyboard */,
-				3F996E391C88D60700810980 /* Assets.xcassets */,
-				3F996E3B1C88D60700810980 /* LaunchScreen.storyboard */,
-				3F996E3E1C88D60700810980 /* Info.plist */,
+				3F996E611C88D63700810980 /* AppDelegate.swift */,
+				3F996E621C88D63700810980 /* ViewController.swift */,
+				3F996E631C88D63700810980 /* Main.storyboard */,
+				3F996E651C88D63700810980 /* MapViewController.swift */,
+				3F996E661C88D63700810980 /* College.swift */,
+				3F996E671C88D63700810980 /* DetailViewController.swift */,
+				3F996E681C88D63700810980 /* Assets.xcassets */,
+				3F996E691C88D63700810980 /* LaunchScreen.storyboard */,
+				3F996E6B1C88D63700810980 /* Info.plist */,
+				3F996E601C88D63600810980 /* collegeProfileBuilder-Bridging-Header.h */,
 			);
 			path = collegeProfileBuilder;
 			sourceTree = "<group>";
@@ -187,6 +199,7 @@
 		3F996E271C88D60700810980 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = tmurray;
 				TargetAttributes = {
@@ -231,9 +244,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F996E3D1C88D60700810980 /* LaunchScreen.storyboard in Resources */,
-				3F996E3A1C88D60700810980 /* Assets.xcassets in Resources */,
-				3F996E381C88D60700810980 /* Main.storyboard in Resources */,
+				3F996E741C88D63700810980 /* Info.plist in Resources */,
+				3F996E731C88D63700810980 /* LaunchScreen.storyboard in Resources */,
+				3F996E721C88D63700810980 /* Assets.xcassets in Resources */,
+				3F996E6E1C88D63700810980 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +272,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F996E351C88D60700810980 /* ViewController.swift in Sources */,
-				3F996E331C88D60700810980 /* AppDelegate.swift in Sources */,
+				3F996E6D1C88D63700810980 /* ViewController.swift in Sources */,
+				3F996E6F1C88D63700810980 /* MapViewController.swift in Sources */,
+				3F996E711C88D63700810980 /* DetailViewController.swift in Sources */,
+				3F996E6C1C88D63700810980 /* AppDelegate.swift in Sources */,
+				3F996E701C88D63700810980 /* College.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,18 +312,18 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3F996E361C88D60700810980 /* Main.storyboard */ = {
+		3F996E631C88D63700810980 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3F996E371C88D60700810980 /* Base */,
+				3F996E641C88D63700810980 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		3F996E3B1C88D60700810980 /* LaunchScreen.storyboard */ = {
+		3F996E691C88D63700810980 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3F996E3C1C88D60700810980 /* Base */,
+				3F996E6A1C88D63700810980 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -401,10 +418,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = collegeProfileBuilder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = barrington.collegeProfileBuilder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "collegeProfileBuilder/collegeProfileBuilder-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -412,10 +432,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = collegeProfileBuilder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = barrington.collegeProfileBuilder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "collegeProfileBuilder/collegeProfileBuilder-Bridging-Header.h";
 			};
 			name = Release;
 		};
